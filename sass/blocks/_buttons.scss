@@ -1,0 +1,56 @@
+.button {
+    position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 55px;
+    background: $primary;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 43px 0px 43px;
+    margin-left: 25px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        background: $primary-hover;
+    }
+}
+
+.button__read-more {
+    margin-left: 0;
+}
+
+.button__header {
+    margin-left: 0;
+    line-height: 64px;
+    padding-right: 75px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        width: 24px;
+        height: 24px;
+        background-image: url('./../img/header/arrow-next.svg');
+    }
+}
+
+.button__border {
+    margin-left: 0;
+    line-height: 62px;
+    padding: 0px 60px 0px 60px;
+    background: none;
+    border: 1px solid $primary;
+    color: $primary;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        background: $primary;
+        color: $white;
+    }
+}
+

@@ -1,0 +1,40 @@
+.projects {
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.projects__heading {
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.projects__title {}
+
+.projects__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-projects {
+    flex: 1 1 30%;
+}
+
+.card-projects__title {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: $black;
+    max-width: 263px;
+}
+
+.card-projects__text {
+    font-size: 20px;
+}
+
+.card-projects__text a {
+    font-weight: 600;
+    color: $primary;
+}

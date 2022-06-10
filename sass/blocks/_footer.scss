@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 56px;
+    padding-bottom: 40px;
+    background-color: $black;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.footer-logo span {
+    color: $white;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 24px;
+}
+
+.navbar {}
+
+.footer-navbar a {
+    color: $white;
+}

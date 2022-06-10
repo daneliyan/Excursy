@@ -1,0 +1,44 @@
+.header {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    margin-left: 21px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: $black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    line-height: 25px;
+    margin-left: 48px;
+    color: $black;
+    margin-bottom: 5px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        font-weight: 700;
+        color: $primary;
+    }
+}
+
